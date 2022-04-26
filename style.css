@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(241, 241, 139);
+    background-image: url(image/muralla.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px 100px;
+    background-position: top;
+    text-align: justify;
+    
+}
+
+p {
+    color: red;
+    width: 600px;
+    margin: 10px CENTER auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+} 
+
+.epi{
+    color: gray;
+    font-style: oblique;
+}
+
+.dumpling{
+    color: green;
+    font-size: 65px;
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.origen{
+    color: green;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+.cocinar{
+    color: rgb(53, 17, 233);
+    text-decoration: olive underline;
+}
+
+h3{
+    color:rgb(143, 96, 10);
+    text-decoration: underline;
+}
+h4{
+    color: rgb(52, 57, 59);
+    text-decoration:underline;
+}
+
+.image1{
+    width: 550px;
+    height: 400px;
+ 
+}
+.image2{
+    width: 550px;
+    height: 400px ;
+}
+
+.iframe1{
+    width: 550px;
+    height: 400px;
+
+}
+.iframe2{
+    width: 550px;
+    height: 400px;
+}
