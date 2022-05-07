@@ -1,5 +1,8 @@
 body{
     background-image: url(image/bambu.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
     background-attachment: fixed;
     background-color: rgb(241, 241, 139);
     
@@ -48,7 +51,7 @@ header{
 section{
     display:inline-block;
     text-align: center;
-    background-color: rgba(209, 207, 207, 0.8);
+    background-color: rgba(209, 207, 207, 0.3);
     width: 60%;
     margin-right: 50px;
     margin-left: 40px;
@@ -88,8 +91,7 @@ aside{
 }
 
 footer{
-    border-radius: 5%;
-    
+  
     text-align: center;
     margin-left: 40px;
     margin-right: 40px;
@@ -201,9 +203,10 @@ p {
     padding-top: 0px;
     width: 600px;
    
-    font-family: 'Times New Roman', Times, serif;
+    font-family: monospace;
+    
     font-size: 30px;
-    text-shadow: black 1px 1px 1px;
+    text-shadow: rgb(255, 255, 255) 2px 2px 1px;
 }
 .epi{
     vertical-align: sub;
@@ -213,11 +216,11 @@ p {
 }
 .dumpling{
 
-    text-shadow: rgb(10, 255, 10) 3px 3px 3px;
-    color: green;
-    font-size: 65px;
+    text-shadow: rgb(0, 0, 0) 5px 5px 10px;
+    color:bisque;
+    font-size: 80px;
     text-decoration: underline;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:cursive;
     text-align: center;
     
 }
@@ -292,32 +295,11 @@ ol{
     border-color: black;
     border-style: solid;
 }
-.masa{
-    color: rgb(165, 132, 42);
-    font-size: 25px;
-    text-shadow: rgb(12, 244, 31) 1px 1px 1px;
-    background-color: rgba;
-    text-align: left;
-}
-.relleno{
-    color: rgb(165, 132, 42);
-    font-size: 25px;
-    text-shadow: rgb(12, 244, 31) 1px 1px 1px;
-    background-color: rgba;
-    text-align: left;
 
-}
-.salsa{
-    color: rgb(165, 132, 42);
-    font-size: 25px;
-    text-shadow: rgb(12, 244, 31) 1px 1px 1px;
-    background-color: rgba;
-    text-align: left;
-}
 h4{
-    color: rgb(165, 132, 42);
+    color: rgb(0, 0, 0);
     font-size: 25px;
-    text-shadow: rgb(12, 244, 31) 1px 1px 1px;
+    text-shadow: rgb(255, 255, 255) 1px 1px 10px ;
     background-color: rgba;
     text-align: left;
 }
