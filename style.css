@@ -28,6 +28,7 @@ body{
 }
 
 header{
+    box-sizing: border-box;
     padding: 1px;
     width: 1200px;
     height: 300px;
@@ -37,7 +38,7 @@ header{
 }
 .historia{
     
-    margin-left: 40px;
+    margin-left: 63px;
     margin-right: 1px;
     padding-top: 1px;
     margin-top: 2px;
@@ -46,25 +47,27 @@ header{
 }
 section{
     display:inline-block;
+    text-align: center;
     background-color: rgba(209, 207, 207, 0.8);
-    width: 48%;
+    width: 60%;
     margin-right: 50px;
     margin-left: 40px;
-    padding-right: 10px ;
-    padding: 70px;
-
+    padding-right: 1px ;
+    padding-left: 40px;
+    box-sizing: border-box;
 }
 
 aside{
+
     text-align: center;
-    width: 25%;
+    width: 28%;
     background-color: rgba(255, 249, 249, 0.758);
     float: right;
     margin-right: 40px;
     margin-top: 100px;
     padding-left: 10px;
-    margin-left: 40px;
-
+    margin-left: 10px;
+    box-sizing: border-box;
 }
 .pinfo{
     color: rgb(0, 0, 0);
@@ -85,11 +88,12 @@ aside{
 }
 
 footer{
-    border-radius: 10%;
-    background-color: rgba(255, 174, 0, 0.923);
+    border-radius: 5%;
+    
     text-align: center;
     margin-left: 40px;
     margin-right: 40px;
+    box-sizing: border-box;
 }
 
 
@@ -100,70 +104,91 @@ footer{
     margin-left: 40px;
     
 }
-.image2{
-    
-    width: 700px;
-    height: 300px;
+.gyoza{
+    width: 550px;
+    height: 400px;
     
 }
 
-nav{
-    margin: 1px;
-    padding: 1px;
-    color: bisque;
-    font-size: 35px;
-    background-color: rgba(159, 152, 152, 0.581);
-    border-radius: 300px;
+
+
+.conteiner-nav{
     text-align: center;
-    text-shadow: black 8px 1px 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 70px;
-    margin-right: 70px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-   
-
     
 
 }
-.r1{
-    width: 100px;
-    height: 100px;
-    margin: 30px;
 
+.recetas{
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: overline;
+    color: rgb(248, 154, 31);
+    font-size: 35px;
+    background-color: gray;
+    border-radius: 40px;
+    margin-left: 460px;
+}
+
+.r1{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 150px;
+    
+    margin: 30px;
+    border-radius: 50%;
+    border-style: double;
+    
+   
 
 }
 .r2{
-    width: 100px;
-    height: 100px;
+    box-sizing: border-box;
+    width: 150px;
+    
     margin: 30px;
+    border-radius: 50%;
+    border-style: double;
+   
 }
 .r3{
-    width: 100px;
-    height: 100px;
+    box-sizing: border-box;
+    width: 160px;
+  
     margin: 30px;
+    border-radius: 52%;
+    border-style: double;
+   
 
 }
 .r4{
-    width: 100px;
-    height: 100px;
+    box-sizing: border-box;
+    width: 150px;
+    
     margin: 30px;
+    border-radius: 50%;
+    border-style: double;
+    
 }
 .face{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
     width: 60px;
     height: 60px;
     margin: 35px;
 }
 .twitter{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
     width: 60px;
     height: 60px;
     margin: 35px;
 }
 
 .insta{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 20px;
     width: 60px;
     height: 60px;
     margin: 35px;
@@ -171,18 +196,18 @@ nav{
 p {
     text-align: center;
     margin-left: 10px;
-    padding-left: 30px;
+    padding-left: 50px;
     color: red;
     padding-top: 0px;
     width: 600px;
-    width:  600px;
+   
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     text-shadow: black 1px 1px 1px;
 }
 .epi{
     vertical-align: sub;
-    text-align: left;
+    text-align: center;
     color: gray;
     font-style: oblique;
 }
@@ -201,7 +226,7 @@ p {
     font-size: 45px;
     text-decoration: underline;
     
-    width: 700px;
+    width: 740px;
     text-align: center;
     
 }
@@ -219,10 +244,8 @@ p {
 
 
 .iframe2{
-    width: 700px;
-    height: 350px;
-    border-style: solid;
-    border-color: black;
+    width: 550px;
+    height: 400px;
 }
    
 
@@ -231,6 +254,7 @@ p {
     text-align: left;
     color: brown;
     text-decoration: underline;
+    text-align: left;
    
     
 
@@ -273,12 +297,14 @@ ol{
     font-size: 25px;
     text-shadow: rgb(12, 244, 31) 1px 1px 1px;
     background-color: rgba;
+    text-align: left;
 }
 .relleno{
     color: rgb(165, 132, 42);
     font-size: 25px;
     text-shadow: rgb(12, 244, 31) 1px 1px 1px;
     background-color: rgba;
+    text-align: left;
 
 }
 .salsa{
@@ -286,12 +312,14 @@ ol{
     font-size: 25px;
     text-shadow: rgb(12, 244, 31) 1px 1px 1px;
     background-color: rgba;
+    text-align: left;
 }
 h4{
     color: rgb(165, 132, 42);
     font-size: 25px;
     text-shadow: rgb(12, 244, 31) 1px 1px 1px;
     background-color: rgba;
+    text-align: left;
 }
 .tituloa{
     text-align: center;
