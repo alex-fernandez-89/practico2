@@ -1,13 +1,11 @@
 body{
+    
     background-image: url(image/bambu.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: luminosity;
     background-attachment: fixed;
     background-color: rgb(241, 241, 139);
-    
-    
-    
     
 }
 .wsp{
@@ -114,18 +112,48 @@ footer{
     
 }
 
-
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .conteiner-nav{
-    text-align: center;
-    
+    display: flex;
+    justify-content: center;
 
+}
+
+.contacto{
+    
+    display: flex;
+    width: 20%;
+    
+    flex-direction: column;
+    align-items: center;
+    
+    
+    text-decoration: none;
+    background-color: rgb(8, 8, 121);
+    font-family: cursive;
+    color: orange;
+    border: 3px orange solid;
+    border-radius: 6px;
+    font-size: 30px;
+}
+
+.contacto:hover{
+    transform: scale(1.1);
+}
+.enlaceacontacto{
+    display: flex;
+    justify-content: center;
 }
 
 .recetas{
     width: 400px;
-    display: inline-block;
     text-align: center;
+    
     text-decoration: overline;
     color: rgb(248, 154, 31);
     font-size: 35px;
@@ -133,10 +161,13 @@ footer{
     border-radius: 40px;
     margin-left: 460px;
 }
+.recetas:hover{
+    transform: scale(1.1);
+}
 
 .r1{
-    display: inline-block;
-    box-sizing: border-box;
+    
+    text-align: center;
     width: 150px;
     
     margin: 30px;
@@ -146,8 +177,11 @@ footer{
    
 
 }
+.r1:hover{
+    transform: scale(1.1);
+}
 .r2{
-    box-sizing: border-box;
+    text-align: center;
     width: 150px;
     
     margin: 30px;
@@ -155,24 +189,32 @@ footer{
     border-style: double;
    
 }
+.r2:hover{
+    transform: scale(1.1);
+}
 .r3{
-    box-sizing: border-box;
+    
     width: 160px;
-  
+    text-align: center;
     margin: 30px;
     border-radius: 52%;
     border-style: double;
-   
+}
 
+.r3:hover{
+    transform: scale(1.1);
 }
 .r4{
-    box-sizing: border-box;
-    width: 150px;
     
+    width: 150px;
+    text-align: center;
     margin: 30px;
     border-radius: 50%;
     border-style: double;
     
+}
+.r4:hover{
+    transform: scale(1.1);
 }
 .face{
     background-color: rgb(255, 255, 255);
@@ -181,12 +223,19 @@ footer{
     height: 60px;
     margin: 35px;
 }
+.face:hover{
+    transform: scale(1.1);
+}
+
 .twitter{
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
     width: 60px;
     height: 60px;
     margin: 35px;
+}
+.twitter:hover{
+    transform: scale(1.1);
 }
 
 .insta{
@@ -196,6 +245,9 @@ footer{
     width: 60px;
     height: 60px;
     margin: 35px;
+}
+.insta:hover{
+    transform: scale(1.1);
 }
 p {
     text-align: center;
@@ -226,6 +278,9 @@ p {
     text-align: center;
     
 }
+.dumpling:hover{
+    transform: scale(1.2);
+}
 .origen{
     color: green;
     font-size: 45px;
@@ -234,6 +289,9 @@ p {
     width: 740px;
     text-align: center;
     
+}
+.origen:hover{
+    transform: scale(1.1);
 }
 
 .cocinar{
@@ -245,6 +303,9 @@ p {
     text-shadow: rgb(255, 255, 255) 2px 2px 5px;
     
     
+}
+.cocinar:hover{
+    transform: scale(1.1);
 }
 
 
@@ -345,4 +406,19 @@ h4{
     font-size: 25px;
     
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.china:hover{
+    transform: scale(1.1);
+}
+.argentina:hover{
+    transform: scale(1.1);
+}
+.nuevazelanda:hover{
+    transform: scale(1.1);
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
