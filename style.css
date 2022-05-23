@@ -67,7 +67,7 @@ nav a{
     color: black;
     background-color: yellowgreen;
     
-    width: 60%;
+    width: 50%;
     text-align: center;
     
     font-size: 2em;
@@ -155,6 +155,7 @@ section .origen{
     font-family: 'Shrikhand', cursive;
     font-size: 5em;
     margin-top: 0%;
+    width: 50%;
     
 }
 section .origen:hover{
@@ -169,7 +170,7 @@ section p{
     flex-wrap: wrap;
     color: rgb(0, 0, 0);
     font-size: 2em;
-    
+    width: 50%;
     
 }
 
@@ -222,7 +223,7 @@ aside{
 
 aside h4{
     color: rgb(55, 133, 32);
-    
+    width: 50%;
     font-size: 1.6em;
     text-decoration: underline;
 }
@@ -233,6 +234,7 @@ aside h3{
     font-size: 1.8em;
     text-decoration: underline;
     text-align:  center;
+    width: 50%;
     
 }
 aside h2{
@@ -240,7 +242,7 @@ aside h2{
     font-size: 2.2em;
     text-decoration: underline;
     text-align:  center;
-   
+   width: 50%;
 }
 aside p{
     text-align: center;
@@ -250,12 +252,13 @@ aside p{
 aside ul{
     text-align: left;
     font-size: 1.3em;
+    width: 50%;
    
 }
 aside ol{
     text-align: left;
     font-size: 1.3em;
-    
+    width: 50%;
 }
 /*footer*/
 footer{
@@ -369,6 +372,7 @@ form{
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 100%;
     
 }
 .formulario{
