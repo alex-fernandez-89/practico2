@@ -101,8 +101,8 @@ nav a:hover{
     font-size: 8em;
     text-decoration: underline;
     text-decoration-color: yellow;
-    color: rgb(243, 24, 24);
-    text-shadow: black 4px 4px 20px ;
+    color: rgb(186, 167, 167);
+    text-shadow: black 4px 4px 10px ;
     font-family: "chinese";
 }
 #titulo h1:hover{
