@@ -84,6 +84,36 @@ nav a:hover{
     transition: 0.3s;
   
 }
+
+/*Cards*/
+.cardcontain{
+    max-width: 100%;
+    max-height: 30%;
+}
+    .card{
+        border: yellow 3px solid;
+    }
+        .row{
+            border-radius: 505;
+        }
+            .aleman{
+                height: 99%;
+            }
+            .tiramisu{
+                height: 99%;
+            }
+            .lemon{
+                height: 99%;
+            }
+            .cheesecake{
+                height: 99%;
+            }
+
+
+
+
+
+
 /*titulo*/
 #titulo{
     display: flex;
