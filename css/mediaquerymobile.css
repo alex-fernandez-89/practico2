@@ -253,7 +253,7 @@ section .image2{
     flex-wrap: wrap;
     margin-right: 0%;
     margin-left: 0%;
-    width: 60vw;
+    width: 98vw;
     height: 30vh;
     
 }
@@ -263,19 +263,19 @@ section .image2:hover{
 }
 .iframe2{
     margin-left: 0%;
-    width: 60vw;
+    width: 98vw;
     height: 30vh;
     
 }
 .audio{
     margin-top: 0%;
-    width: 60vw;
+    width: 98vw;
     height: 30vh;
    
 }
 .iframe1{
     margin-left: 0%;
-    width: 60vw;
+    width: 98vw;
     height: 30vh;
 }
 
@@ -350,7 +350,7 @@ aside ol{
     padding: 2%;
 }
 .patrocinador img{
-    width: 65vw;
+    width: 98vw;
     height: 10vh;
 }
 
