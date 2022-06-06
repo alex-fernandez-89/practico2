@@ -24,13 +24,70 @@
     <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--<H1 class="alex">Alex Fernandez</H1>-->
-    <header>
+
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="./header/logosaboresconhistoria.png" class="logo" height="28" alt="CoolBrand">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto">
+                    <a href="#" class="nav-item nav-link">Inicio</a>
+                    <a href="#" class="nav-item nav-link">Nosotros</a>
+                    <a href="#" class="nav-item nav-link">Servicios</a>
+                    <a href="#" class="nav-item nav-link">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
             
-            <img class="historia" src="header/logosaboresconhistoria.png" alt="Logo de la pagina">
+    <br><br>
+
+    <!--Carousel-->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./slide/arepas.png" class="d-block w-100" alt="Slide 1">
+            </div>
+            
+            <div class="carousel-item">
+                <img src="./slide/empanada.png" class="d-block w-100" alt="Slide 2">
+            </div>
+            
+            <div class="carousel-item">
+                <img src="./slide/taco.png" class="d-block w-100 " alt="Slide 3">
+            </div>
+        </div>
+    
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    
         
-    </header>
+    <!--    
     <nav>
+
         <div class="navcontainer">
                 
             <a href="https://cookpad.com/ar/recetas/15811029-fideos-chinos-salteado-con-verduras-pollo-y-chiu-chow-chinese-noodles" target="_blank">
@@ -46,55 +103,8 @@
          </div>
         
     </nav>
-    <div class="container cardcontain">
-        <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card aleman">
-                    <img src="cards/turronaleman.jpg" class="card-img-top" alt="Sample Image">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Turrón Aleman</h5>
-                        <p class="card-text">Alice is a freelance web designer and developer based in London. She is specialized in HTML5, CSS3, JavaScript, Bootstrap, etc.</p>
-                        <a href="https://ar.cienradios.com/turron-estilo-aleman-con-galletitas-como-hacer-la-receta-para-este-postre-delicioso/" class="btn btn-warning">Ver Receta</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card tiramisu">
-                    <img src="cards/tiramisu.jpg" class="card-img-top" alt="Sample Image">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Tiramisu</h5>
-                        <p class="card-text">Alice is a freelance web designer and developer based in London. She is specialized in HTML5, CSS3, JavaScript, Bootstrap, etc.</p>
-                        <a href="https://www.cocinavital.mx/recetas/postres/tiramisu-clasico-pasos/2019/05/" class="btn btn-secondary">Ver Receta</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card lemon">
-                    <img src="cards/lemonpie.jpg" class="card-img-top" alt="Sample Image">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Lemon Pie</h5>
-                        <p class="card-text">Alice is a freelance web designer and developer based in London. She is specialized in HTML5, CSS3, JavaScript, Bootstrap, etc.</p>
-                        <a href="https://unareceta.com/lemon-pie-con-leche-condensada/" class="btn btn-danger">Ver Receta</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card cheesecake">
-                    <img src="cards/cheescakefrutosrojos.jpg" class="card-img-top" alt="Sample Image">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Cheesecacke Frutos Rojos</h5>
-                        <p class="card-text">Si te fascinan los frutos rojos perfectamente equilibrado entre dulce y ácido, .</p>
-                        <a href="https://recetascheesecake.com/cheesecake-de-frutos-rojos/" class="btn btn-success">Ver Receta</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-        <!--Turron Aleman: https://ar.cienradios.com/turron-estilo-aleman-con-galletitas-como-hacer-la-receta-para-este-postre-delicioso/   -->
-        <!--Tiramisu: https://www.cocinavital.mx/recetas/postres/tiramisu-clasico-pasos/2019/05/ -->
-        <!--Lemon Pie: https://unareceta.com/lemon-pie-con-leche-condensada/-->
-        <!--Cheesecake frutos rojos: https://recetascheesecake.com/cheesecake-de-frutos-rojos/-->
-
+    -->
+    
 
 
         <div id="titulo">
@@ -136,14 +146,15 @@
                         la versión argentina y un sinfín de otros ejemplos.</p>
                         <br>
                 </article>
-    
+                    
                         <img  class="image2" src="section/gyoza-wabiarg.jpeg"  alt="gyoza"> 
                         <h5 class="epi">El tipo de cierre que tiene este bocadillo es muy parecido al de una empanada argentina. </h5>
+                    <div class="multimedia">
                         <iframe class="iframe1" src="https://www.youtube.com/embed/HmMyopJGRJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <audio class="audio" src="audio/musicachina.mp3" controls  loop>Música tradicional China</audio>
                         <iframe class="iframe2" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d117415.07017801455!2d113.227844!3d23.125598!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x315285f132af5c3f%3A0x2ed41c6f09259f29!2sProvincia%20de%20Cant%C3%B3n%2C%20China!5e0!3m2!1ses-419!2sar!4v1651788586654!5m2!1ses-419!2sar"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-            </section>
+                        <audio class="audio" src="audio/musicachina.mp3" controls  loop>Música tradicional China</audio>
+                    </div>
+                    </section>
             <aside>
                         <h2 class="cocinar" >UNA RECETA PARA COCINAR EN CASA</h2>
 
@@ -214,6 +225,56 @@
                     
             </aside>
     </main>
+
+    <div class="container cardcontain">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card aleman">
+                    <img src="cards/turronaleman.jpg" class="card-img-top" alt="Sample Image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Turrón Aleman</h5>
+                        <p class="card-text">El turrón es una receta típica de la pastelería tradicional que data de 1700. En un comienzo, estuvo hecho con miel, nueces tostadas (aunque también pueden ser almendras, pistachos, avellanas) y frutas secas.</p>
+                        <a href="https://ar.cienradios.com/turron-estilo-aleman-con-galletitas-como-hacer-la-receta-para-este-postre-delicioso/" class="btn btn-outline-dark">Ver Receta</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card tiramisu">
+                    <img src="cards/tiramisu.jpg" class="card-img-top" alt="Sample Image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tiramisu</h5>
+                        <p class="card-text">El tiramisú es un pastel frío que se monta en capas. No existe una receta única de elaboración, sino variantes a partir de una serie de ingredientes base que pueden ser representados por distintos productos</p>
+                        <a href="https://www.cocinavital.mx/recetas/postres/tiramisu-clasico-pasos/2019/05/" class="btn btn-secondary">Ver Receta</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card lemon">
+                    <img src="cards/lemonpie.jpg" class="card-img-top" alt="Sample Image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Lemon Pie</h5>
+                        <p class="card-text">La tarta de limón es una tarta formada por una base de masa quebrada u hojaldre que se rellena con crema de limón. Esta tarta a menudo se complementa con un merengue, lo que resulta en tarta de limón con merengue</p>
+                        <a href="https://unareceta.com/lemon-pie-con-leche-condensada/" class="btn btn-danger">Ver Receta</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card cheesecake">
+                    <img src="cards/cheescakefrutosrojos.jpg" class="card-img-top" alt="Sample Image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Cheesecacke Frutos Rojos</h5>
+                        <p class="card-text">Si te fascinan los frutos rojos perfectamente equilibrado entre dulce y ácido, este cheesecake de frutos rojos es ideal para ti, .</p><br><br><br><br><br>
+                        <a href="https://recetascheesecake.com/cheesecake-de-frutos-rojos/" class="btn btn-success">Ver Receta</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--Turron Aleman: https://ar.cienradios.com/turron-estilo-aleman-con-galletitas-como-hacer-la-receta-para-este-postre-delicioso/   -->
+        <!--Tiramisu: https://www.cocinavital.mx/recetas/postres/tiramisu-clasico-pasos/2019/05/ -->
+        <!--Lemon Pie: https://unareceta.com/lemon-pie-con-leche-condensada/-->
+        <!--Cheesecake frutos rojos: https://recetascheesecake.com/cheesecake-de-frutos-rojos/-->
+
         <br>
         
          <footer>

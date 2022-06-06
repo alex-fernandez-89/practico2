@@ -5,7 +5,7 @@
         background-color: rgb(0, 0, 0);
         background-size: cover;
         background-repeat: no-repeat;
-        width: 98%;
+        width: 100%;
         font-size: 10px;
     }
     @font-face {
@@ -16,7 +16,73 @@
     p{
         font-family: 'Hubballi', cursive;
     }
-    /*header*/
+    /*navbar*/
+
+nav{
+    width: 100%;
+}
+.container-fluid{
+    width: 100%;
+    
+}
+.navbar-brand{
+    display: flex;
+    width: 40%;
+}
+.logo{
+    width: 100vw;
+    height: 25vh;
+}
+.navbar-toggler{
+    background-color: white;
+    color: rgb(255, 0, 0);
+}
+.navbar-toggler-icon{
+    
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.navbar-nav a{
+    font-size: 1.8em;
+    color: white;
+}
+.navbar-nav a:hover{
+    transform: scale(1);
+    color: brown;
+}
+
+
+/*carousel*/
+.slide{
+    width: 100%;
+}
+
+.carousel-inner{
+    width: 100%;
+}
+
+.carousel-item{
+    
+    width: 100%;
+    height: 70%;
+    left: 0%;
+    
+}
+.carousel-item img{
+    width: 10vw;
+    height: 40vh;
+
+}
+    /*navbar*/
+
+    
+    
+    /*header
     header{
         display: flex;
         width: 100%;
@@ -36,7 +102,7 @@
         padding: 0%;
    
     }
-    /*nav*/
+    /*nav
     nav{
     
         box-sizing: border-box;
@@ -84,36 +150,34 @@
    
     
 /*titulo*/
-    #titulo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 98%;
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 99%;
     
-        box-sizing: border-box;
+    box-sizing: border-box;
 }
-    #titulo h1{
-        width: 90%;
-        font-size: 13em;
-        text-decoration: underline;
-        text-decoration-color: rgb(173, 173, 113);
-        color: rgb(243, 232, 24);
-        text-shadow: rgb(255, 255, 255) 4px 4px 70px ;
-        font-family: "chinese";
-        padding: 0%;
-        margin: 1%;
-        margin-right: 2%;
-        margin-left: 0%;
-        text-align: center;
+#titulo h1{
+    text-align: center;
+    font-size: 8em;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    color: rgb(186, 167, 167);
+    text-shadow: black 4px 4px 10px ;
+    font-family: "chinese";
 }
-   
-
-    #titulo .image1{
-        width: 99vw;
-        height: 50vh;
-        background-color: transparent;
-        border: 0px transparent solid;
+#titulo h1:hover{
+    transform: scale(1);
+    transition: 0.0s;
+}
+#titulo .image1{
+    width: 70vw;
+    height: 30vh;
+}
+#titulo .image1:hover{
+    transform: scale(1);
 }
 
 
@@ -172,7 +236,7 @@
         flex-wrap: wrap;
         color: rgb(255, 255, 255);
         font-size: 2.6em;
-        width: 98%;
+        width: 95%;
         padding: 0%;
         box-sizing: border-box;
    
@@ -180,34 +244,35 @@
 
     section .image2{
         
-        margin-left: 4%;
-        width: 90vw;
+        margin-left: 10%;
+        width: 70vw;
         height: 40vh;
     
     }
     .epi{
+        width: 60%;
         color: gray;
-        margin-left: 5%;
+        margin-left: 10%;
     }
 
    
     .iframe2{
     
-        margin-left: 4%;
-        width: 90vw;
+        margin-left: 10%;
+        width: 70vw;
         height: 40vh;
     
     }
     .audio{
-        margin-left: 4%;
+        margin-left: 10%;
         margin-top: 0%;
-        width: 90vw;
+        width: 50vw;
         height: 25vh;
    
     }
     .iframe1{
-        margin-left: 4%;
-        width: 90vw;
+        margin-left: 10%;
+        width: 70vw;
         height: 40vh;
    
 }
@@ -236,16 +301,19 @@ aside h3{
     color: rgb(255, 244, 97);
     text-decoration-color: rgb(255, 255, 255);
     font-size: 2.7em;
-    margin-left: 10%;
+    margin-left: 7%;
     text-align:  center;
+    width: 100%;
     
 }
 aside h2{
     color: rgb(157, 235, 162);
     text-decoration-color: rgb(255, 255, 255);
     font-size: 2.9em;
-    margin-left: 10%;
-    text-align:  center;
+    margin-left: 7%;
+    width: 100%;
+    text-align: center;
+    
    
 }
 aside p{
@@ -260,18 +328,20 @@ aside p{
         width: 100%;
         padding: 0%;
         box-sizing: border-box;
-        margin-left: 4%;
+        margin-left: 5%;
 }
 aside ul{
     color: moccasin;
     text-align: left;
     font-size: 1.8em;
+    width: 100%;
    
 }
 aside ol{
     color: moccasin;
     text-align: left;
     font-size: 1.8em;
+    width: 100%;
     
 }
 .patrocinador{
@@ -279,13 +349,51 @@ aside ol{
     background-color: transparent;
     justify-content: center;
     flex-direction: column;
-    margin-left: 10%;
+    margin-left: 11%;
     padding: 2%;
+    width: 100%;
 }
 .patrocinador img{
     width: 70vw;
     height: 10vh;
 }
+.row{
+    width: 100%;
+}
+.card{
+    border: yellow 3px solid;
+    box-sizing: border-box;
+    margin: 0%;
+    width: 100%;
+}
+    
+        .aleman{
+            width: 100%;
+            height: 99%;
+        }
+        .tiramisu{
+            width: 100%;
+            height: 99%;
+        }
+        .lemon{
+            width: 100%;
+            height: 99%;
+        }
+        .cheesecake{
+            width: 100%;
+            height: 99%;
+        }
+
+        .card-title{
+            color: rgb(26, 58, 243);
+            font-size: 1.8em;
+        }
+        .card-text{
+            color: rgb(243, 13, 13);
+            font-size: 1.6em;
+        }
+
+        
 /*footer*/
 footer{
     
@@ -293,10 +401,10 @@ footer{
     justify-content: center;
     
     align-items: center;
-    flex-wrap: wrap;
+   
     justify-items: auto;
     flex-direction: row;
-    width: 99%;
+    width: 100%;
    
 }
 .face{
@@ -322,7 +430,7 @@ footer{
 .twitter:hover{
     transform: scale(1.1);
     transition: 0.6s;
-    background-color: aqua; 
+    background-color: transparent; 
 }
 
 .insta{
@@ -343,8 +451,8 @@ footer{
     position: fixed;
     z-index: 999;
     border-radius: 50%;
-    bottom: 20px;
-    right: 25px;
+    bottom: 7%;
+    right: 10%;
     padding: 15px;
     transition: ease 0.3s;
     animation: efecto 1.2s infinite;
