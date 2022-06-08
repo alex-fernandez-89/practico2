@@ -22,6 +22,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+    <script>
+        alert("Bienvenido")
+    </script>
 </head>
 <body>
 
@@ -29,17 +32,20 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <div class="container-fluid">
             <a href="#" class="navbar-brand">
-                <img src="./header/logosaboresconhistoria.png" class="logo" height="28" alt="CoolBrand">
+                <img src="./header/image/logosaboresconhistoria.png" class="logo" height="28" alt="CoolBrand">
             </a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto">
-                    <a href="#" class="nav-item nav-link">Inicio</a>
-                    <a href="#" class="nav-item nav-link">Nosotros</a>
-                    <a href="#" class="nav-item nav-link">Servicios</a>
+                    <a href="https://cookpad.com/ar/recetas/15811029-fideos-chinos-salteado-con-verduras-pollo-y-chiu-chow-chinese-noodles" class="nav-item nav-link">Receta 1</a>
+                    <a href="#" class="nav-item nav-link">Receta 2</a>
+                    <a href="#" class="nav-item nav-link">Receta 3</a>
+                    <a href="#" class="nav-item nav-link">Receta 4</a>
                     <a href="#" class="nav-item nav-link">Contacto</a>
+                    <button id="modooscuro" onclick="inclusivo()">Modo Oscuro</button>
+
                 </div>
             </div>
         </div>
@@ -59,15 +65,15 @@
         <!-- Wrapper for carousel items -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./slide/arepas.png" class="d-block w-100" alt="Slide 1">
+                <img src="./slide/image/arepas.png" class="d-block w-100" alt="Slide 1">
             </div>
             
             <div class="carousel-item">
-                <img src="./slide/empanada.png" class="d-block w-100" alt="Slide 2">
+                <img src="./slide/image/empanada.png" class="d-block w-100" alt="Slide 2">
             </div>
             
             <div class="carousel-item">
-                <img src="./slide/taco.png" class="d-block w-100 " alt="Slide 3">
+                <img src="./slide/image/taco.png" class="d-block w-100 " alt="Slide 3">
             </div>
         </div>
     
@@ -90,7 +96,7 @@
 
         <div class="navcontainer">
                 
-            <a href="https://cookpad.com/ar/recetas/15811029-fideos-chinos-salteado-con-verduras-pollo-y-chiu-chow-chinese-noodles" target="_blank">
+            https://cookpad.com/ar/recetas/15811029-fideos-chinos-salteado-con-verduras-pollo-y-chiu-chow-chinese-noodles" target="_blank">
                 RECETA 1</a>
             <a  href="https://cookpad.com/ar/recetas/15935495-especial-de-ano-nuevo-chino-delicias-de-buda-china" target="_blank">
                 RECETA 2</a>
@@ -119,7 +125,7 @@
             <section>
          
                 <article>
-                    <h2 class="origen" >El origen</h2>
+                    <h2 id="origen" class="origen" >El origen</h2>
             
         
                         <p>Los dumplings son una especie de empanadas originarias
@@ -147,20 +153,20 @@
                         <br>
                 </article>
                     
-                        <img  class="image2" src="section/gyoza-wabiarg.jpeg"  alt="gyoza"> 
-                        <h5 class="epi">El tipo de cierre que tiene este bocadillo es muy parecido al de una empanada argentina. </h5>
+                        <img  class="image2" src="section/image/gyoza-wabiarg.jpeg"  alt="gyoza"> 
+                        <h5 id="epi" class="epi">El tipo de cierre que tiene este bocadillo es muy parecido al de una empanada argentina. </h5>
                     <div class="multimedia">
                         <iframe class="iframe1" src="https://www.youtube.com/embed/HmMyopJGRJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <iframe class="iframe2" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d117415.07017801455!2d113.227844!3d23.125598!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x315285f132af5c3f%3A0x2ed41c6f09259f29!2sProvincia%20de%20Cant%C3%B3n%2C%20China!5e0!3m2!1ses-419!2sar!4v1651788586654!5m2!1ses-419!2sar"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         <audio class="audio" src="audio/musicachina.mp3" controls  loop>Música tradicional China</audio>
                     </div>
-                    </section>
+            </section>
             <aside>
-                        <h2 class="cocinar" >UNA RECETA PARA COCINAR EN CASA</h2>
+                        <h2 id="cocinar" class="cocinar" >UNA RECETA PARA COCINAR EN CASA</h2>
 
-                        <h3 class="ingredientes" >Ingredientes</h3>
+                        <h3 id="ingredientes" class="ingredientes" >Ingredientes</h3>
          
-                        <h4 class="masa">Para la masa</h4>
+                        <h4 id="masa" class="masa">Para la masa</h4>
     
                         <ul>
                             <li> 100 gramos de harina</li>
@@ -169,25 +175,25 @@
                             <li>Agua hirviendo</li>
                             <li>Un toque de fecula de maiz</li>
                         </ul>
-                        <h4 class="relleno">Para el relleno</h4>
+                        <h4 id="relleno" class="relleno">Para el relleno</h4>
                         <ul>
-                            <li>300n gramos de carne de cerdo</li>
+                            <li>300 gramos de carne de cerdo</li>
                             <li>1/2 cebolla picada</li>
                             <li>jengibre fresco picado</li>
                             <li>1 diente de ajo</li>
                             <li>salsa de soya</li>
                         </ul>
-                        <h4 class="salsa">Para la salsa</h4>
+                        <h4 id="salsa" class="salsa">Para la salsa</h4>
                         <ul>
                             <li>Salsa de soya</li>
                             <li>Miel</li>
                         </ul>
 
 
-                        <h3 class="procedimiento">Procedimiento</h3>
+                        <h3 id="procedimiento" class="procedimiento">Procedimiento</h3>
 
     
-                        <h4>Para la masa</h4>
+                        <h4 id="lamasa" >Para la masa</h4>
                         <ol>
                             <li>Mezclar en un bowl los ingredientes secos: la harina y la sal.</li>
                             <li>Agregar poco a poco el agua hirviendo y revolver hasta tener una mezcla homogénea.</li>
@@ -195,13 +201,13 @@
                             <li>Dejarla reposar 15 minutos.</li>
                             <li>Poner un poco de fécula de maíz en la mesa y estirar la masa y formar círculos. (Puedes ayudarte de un vaso para hacer los cortes).</li>
                         </ol>
-                        <h4>Para el relleno</h4>
+                        <h4 id="elrelleno" >Para el relleno</h4>
                         <ol>
                             <li>Machacar el jengibre con el ajo, la cebolla picada y la carne de cerdo.</li>
                             <li>Añadir un chorrito de salsa de soya y revolver.</li>
                             <li>Dejar en reposo durante una hora. </li>
                         </ol>
-                        <h4>Formar los dumplings</h4>
+                        <h4 id="formar">Formar los dumplings</h4>
                         <ol>
                             <li>Tomar un disco de masa y poner en el centro el relleno. Cerrar y poner una gotita de agua en los bordes; 
                                 aplastar uno con otro de modo que no se abran. </li>
@@ -212,15 +218,15 @@
 
         
                         <div>
-                            <h3 class="infoa" >Informacion Adicional</h3>
+                            <h3 id="infoa" class="infoa" >Informacion Adicional</h3>
         
-                            <p class="pinfo">La cocina cantonesa es la más reconocida mundialmente de las cocinas regionales de China. Actualmente posee numerosos premios Michelin.
+                            <p id="parrafo" class="pinfo">La cocina cantonesa es la más reconocida mundialmente de las cocinas regionales de China. Actualmente posee numerosos premios Michelin.
                                 Los cantoneses desde tiempos inmemoriales han mirado hacia el exterior. Ya en el siglo XIV, en la dinastía Ming, emigran hacia los países del sudeste de Asia, llevando consigo sus conocimientos culinarios. En 1842, muchos cantoneses emigran al Occidente en busca de una vida mejor. Australia, California y Perú fueron destinos frecuentes para quienes buscaban oro o trabajo. La cocina china se dio a conocer a través de los restaurantes que abrían los inmigrantes. Nace el "chop suey", un plato híbrido creado por los cantoneses residentes en Norteamérica en el siglo XIX. El plato mezcla carnes y verduras salteados en un wok. En Perú, el fenómeno de mestizaje culinario da como resultado la cocina chifa.
                                 La cocina cantonesa utiliza más carne (cerdo, pollo y pato) que las de otras provincias. También disponen de cangrejos, pescados, gambas, calamares y ostras.</p>
                         </div>
                         <div class="patrocinador">
-                            <img src="./aside/compromiso.png" alt="">
-                            <img src="aside/potrerodigital.png" alt="">
+                            <img src="aside/image/compromiso.png" alt="">
+                            <img src="aside/image/potrerodigital.png" alt="">
                         </div>
                     
             </aside>
@@ -230,7 +236,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card aleman">
-                    <img src="cards/turronaleman.jpg" class="card-img-top" alt="Sample Image">
+                    <img src="cards/image/turronaleman.jpg" class="card-img-top" alt="Sample Image">
                     <div class="card-body text-center">
                         <h5 class="card-title">Turrón Aleman</h5>
                         <p class="card-text">El turrón es una receta típica de la pastelería tradicional que data de 1700. En un comienzo, estuvo hecho con miel, nueces tostadas (aunque también pueden ser almendras, pistachos, avellanas) y frutas secas.</p>
@@ -240,7 +246,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card tiramisu">
-                    <img src="cards/tiramisu.jpg" class="card-img-top" alt="Sample Image">
+                    <img src="cards/image/tiramisu.jpg" class="card-img-top" alt="Sample Image">
                     <div class="card-body text-center">
                         <h5 class="card-title">Tiramisu</h5>
                         <p class="card-text">El tiramisú es un pastel frío que se monta en capas. No existe una receta única de elaboración, sino variantes a partir de una serie de ingredientes base que pueden ser representados por distintos productos</p>
@@ -250,7 +256,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card lemon">
-                    <img src="cards/lemonpie.jpg" class="card-img-top" alt="Sample Image">
+                    <img src="cards/image/lemonpie.jpg" class="card-img-top" alt="Sample Image">
                     <div class="card-body text-center">
                         <h5 class="card-title">Lemon Pie</h5>
                         <p class="card-text">La tarta de limón es una tarta formada por una base de masa quebrada u hojaldre que se rellena con crema de limón. Esta tarta a menudo se complementa con un merengue, lo que resulta en tarta de limón con merengue</p>
@@ -260,7 +266,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card cheesecake">
-                    <img src="cards/cheescakefrutosrojos.jpg" class="card-img-top" alt="Sample Image">
+                    <img src="cards/image/cheescakefrutosrojos.jpg" class="card-img-top" alt="Sample Image">
                     <div class="card-body text-center">
                         <h5 class="card-title">Cheesecacke Frutos Rojos</h5>
                         <p class="card-text">Si te fascinan los frutos rojos perfectamente equilibrado entre dulce y ácido, este cheesecake de frutos rojos es ideal para ti, .</p><br><br><br><br><br>
@@ -277,28 +283,33 @@
 
         <br>
         
-         <footer>
+    <footer>
             <div class="containerflecha">
-            <a href="#titulo">
-                <img class="flecha" src="footer/flecha.png" alt=""></a>
+                <a href="#titulo">
+                    <img class="flecha" src="footer/image/flecha.png" alt=""></a>
             </div>
-            <a href="https://www.facebook.com/alexmetalfernandez/" target="_blank"> 
-                <img class="face" src="footer/imagenes-de-facebook-png.png"   alt=""></a>
+                    <a href="https://www.facebook.com/alexmetalfernandez/" target="_blank"> 
+                        <img class="face" src="footer/image/imagenes-de-facebook-png.png"   alt=""></a>
 
-            <a href="https://twitter.com/" target="_blank"> 
-                <img class="twitter" src="footer/twt.png" alt=""></a>
+                    <a href="https://twitter.com/" target="_blank"> 
+                        <img class="twitter" src="footer/image/twt.png" alt=""></a>
 
-            <a href="https://www.instagram.com/alexs7arg/" target="_blank"> 
-                <img class="insta" src="footer/instagram-png-instagram-png-logo-1455.png" alt=""></a>
-            
-            <div class="container-boton">
-                <a href="https://api.whatsapp.com/send?phone=5492616515447" target="_blank">
-                    <img class="boton" src="footer/wp.png" alt=""></a>
+                    <a href="https://www.instagram.com/alexs7arg/" target="_blank"> 
+                        <img class="insta" src="footer/image/instagram-png-instagram-png-logo-1455.png" alt=""></a>
+                    
+                    <div class="container-boton">
+                        <a href="https://api.whatsapp.com/send?phone=5492616515447" target="_blank">
+                            <img class="boton" src="footer/image/wp.png" alt=""></a>
+                    </div>
+            <div class="containerdevelouper">
+                <button id="develouper" onclick="cartel()"> Creado por: </button>
             </div>
          
     </footer>
 
     <!--pagina de referencia: https://www.animalgourmet.com/2020/06/25/dumplings-receta-origen/ -->
+    <script src="./javascript/javascript.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/291c7585ac.js" crossorigin="anonymous"></script>
 </body>
 </html>

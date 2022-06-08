@@ -5,6 +5,8 @@
     }
     
 
+
+
     
   
 
@@ -16,12 +18,26 @@
 p{
     font-family: 'Hubballi', cursive;
 }
-
 /*navbar*/
 
 
-/*carousel*/
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    
+}
 
+#modooscuro{
+    background-color: red;
+    color: white;
+    border-radius: 20%;
+    font-size: 1.4em;
+    width: 10%;
+    height: 10%;
+}
+
+/*carousel*/
 
 .carousel-item{
     
@@ -335,6 +351,27 @@ footer{
     flex-direction: row;
     width: 99%;
    
+}
+.containerdevelouper{
+    background-color: black;
+    border: 2px solid white;
+    text-align: center;
+    width: 12%;
+    height: 20%;
+
+}
+.containerdevelouper:hover{
+    border: 2px solid blue;
+
+}
+#develouper{
+    background-color: transparent;
+    color: white;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+#develouper:hover{
+    color: red;
 }
 .face{
     width: 6vw;

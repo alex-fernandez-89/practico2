@@ -23,10 +23,12 @@
     }
 
     /*navbar*/
-    .navbar-brand{
     
-
+    .navbar{
+     
+        height: 15%;
     }
+    
     .logo{
         width: 25vw;
         height: 25vh;
@@ -34,13 +36,13 @@
     .navbar-toggler{
         display: none;
     }
-    .navbar-toggler-icon{
-        display: none;
-    }
+    
     
     .navbar-nav{
+        
         display: flex;
         justify-content: space-between;
+        margin-right: 10%;
         
     
     }
@@ -55,7 +57,10 @@
     }
     
     /*carousel*/
-
+    .carousel-inner{
+        margin-top: 12%;
+        width: 100%;
+    }
     .carousel-item{
     
         width: 100%;
@@ -302,7 +307,7 @@
         font-size: 2.2em;
         text-decoration: underline;
         text-align:  center;
-        margin-left: 31%;
+        margin-left: 38%;
         box-sizing: border-box;
     }
     aside p{
