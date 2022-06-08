@@ -409,6 +409,29 @@ footer{
     width: 100%;
    
 }
+
+.containerdevelouper{
+    background-color: black;
+    border: 2px solid white;
+    text-align: center;
+    width: 15%;
+    height: 20%;
+
+}
+.containerdevelouper:hover{
+    border: 2px solid blue;
+
+}
+#develouper{
+    background-color: transparent;
+    color: white;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+#develouper:hover{
+    color: red;
+}
+
 .face{
     width: 7vw;
     height: 7vh;

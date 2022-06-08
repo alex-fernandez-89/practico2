@@ -70,7 +70,20 @@ nav{
 .navbar-nav a:hover{
     display: none;
 }
-
+#modooscuro{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 20%;
+    font-size: 1.4em;
+    width: 16%;
+    height: 10%;
+    border: rgb(255, 0, 0) 1px solid;
+}
+#modooscuro:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: rgb(4, 0, 255) 1px solid;
+}
 
 /*carousel*/
 .slide{
@@ -403,14 +416,29 @@ footer{
     width: 100%;
    
 }
-#develouper{
-    width: 12%;
+
+
+
+.containerdevelouper{
+    background-color: black;
+    border: 2px solid white;
+    text-align: center;
+    width: 20%;
     height: 20%;
-    background-color: blue;
+
+}
+.containerdevelouper:hover{
+    border: 2px solid blue;
+
+}
+#develouper{
+    background-color: transparent;
     color: white;
     font-size: 2em;
-    border-radius: 50%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+#develouper:hover{
+    color: red;
 }
 .face{
     width: 10vw;

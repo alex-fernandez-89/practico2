@@ -56,6 +56,7 @@
         transition: 0.5s;
     }
     
+    
     /*carousel*/
     .carousel-inner{
         margin-top: 12%;
@@ -338,6 +339,8 @@
         height: 10vh;
     }
     /*footer*/
+
+
     footer{
         
         display: flex;
@@ -350,6 +353,29 @@
         width: 99%;
        
     }
+
+    .containerdevelouper{
+        background-color: black;
+        border: 2px solid white;
+        text-align: center;
+        width: 12%;
+        height: 20%;
+    
+    }
+    .containerdevelouper:hover{
+        border: 2px solid blue;
+    
+    }
+    #develouper{
+        background-color: transparent;
+        color: white;
+        font-size: 2em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    }
+    #develouper:hover{
+        color: red;
+    }
+
     .face{
         width: 6vw;
         height: 10vh;

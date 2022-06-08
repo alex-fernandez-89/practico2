@@ -4,7 +4,7 @@ function cartel() {
         "Alex Fernandez - Contacto: Tel: 2616515447 - Email: alexfernandez.19899@gmail.com"
     )
 }
-
+/*modo oscuro*/
 function inclusivo() {
     document.body.style.backgroundColor="black";
     document.getElementById("origen").style.color="gray";
