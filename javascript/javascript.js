@@ -1,8 +1,11 @@
 /*footer*/
+
+/*cartel de informacion*/
 function cartel() {
     alert(
         "Alex Fernandez - Contacto: Tel: 2616515447 - Email: alexfernandez.19899@gmail.com"
     )
+    
 }
 /*modo oscuro*/
 function inclusivo() {

@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    
+    <meta charset="UTF-8">
+    <meta name="description" content="recetas de de comida">
+    <meta name="keywords" content="comida, china, sabores, historia">
+    <meta name="author" content="alex fernandez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores con Historia - Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mediaquerymobile.css">
     <link rel="stylesheet" href="./css/mediaquerytablet.css">
@@ -12,87 +18,95 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
-    <title>Sabores con Historia - Contacto</title>
+    <script>
+        alert("Gracias por tomarte un tiempo para escribirnos")
+    </script>
 </head>
     <body>
         
-        <header>
-            <div class="logo">
-                <img class="historia" src="header/logosaboresconhistoria.png" alt="Logo de la pagina">
+            <!--NavBar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="./header/image/logosaboresconhistoria.png" class="logo" height="28" alt="CoolBrand">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="https://www.recetasgratis.net/recetas-argentinas" target="_blank" class="nav-link" >
+                            ARGENTINA</a>
+                        <a  href="https://www.recetasgratis.net/recetas-chilenas" target="_blank" class="nav-link">
+                            CHILE</a>
+                        <a  href="https://www.recetasderechupete.com/receta/cocina-sueca/" target="_blank" class="nav-link">
+                            SUECIA</a>
+                        <a  href="https://www.gourmet4life.com/australian-food-4162464" target="_blank" class="nav-link">
+                            AUSTRALIA</a>
+                            <a href="index.html" class="nav-item nav-link">INICIO</a>    
+                        <div class="oscuro">
+                            <button id="modooscuro" onclick="inclusivo()">Modo Oscuro</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </header>
-
-        <br><br>
-        <nav>
-            <div class="navcontainercontacto">
-                    
-                <a href="https://www.recetasgratis.net/recetas-argentinas" target="_blank" class="nav-link" >
-                     ARGENTINA</a>
-                  
-                    
-                <a  href="https://www.recetasgratis.net/recetas-chilenas" target="_blank" class="nav-link">
-                     CHILE</a>
-                    
-                    
-                <a  href="https://www.recetasderechupete.com/receta/cocina-sueca/" target="_blank" class="nav-link">
-                    SUECIA</a>
-                    
-                    
-                <a  href="https://www.gourmet4life.com/australian-food-4162464" target="_blank" class="nav-link">
-                    AUSTRALIA</a>
-                    
-                    
-                <a href="index.html">INICIO</a>
-    
-             </div>
             
         </nav>
-        <br>
-        <section class="pag2">
-            <div class="formulario">
-                <form>
-                    <label for="nombre">Apellido y Nombre</label>
-                    <input type="text" name="nombre" value="Escribir Apellido y Nombre">
-                    <br>
-                    <label for="email">Correo Electronico</label>
-                    <input type="text" name="email" value="Escribir email">
-                    <br>
-                    <label for="Mensaje">Mensaje</label>
-                    <textarea name="name"  cols="20" rows="10">Mensaje</textarea>
-                    <br>
-                    <input class="xx" type="submit" value="Enviar">
+                
+                
+            </nav>
+            <br>
 
-                </form>
-            </div>
+            <!--Section-->
+            <!--Formulario de contacto-->
+            <section class="pag2">
+                <div class="formulario">
+                    <form>
+                        <label for="nombre">Apellido y Nombre</label>
+                        <input type="text" name="nombre" value="Escribir Apellido y Nombre">
+                        <br>
+                        <label for="email">Correo Electronico</label>
+                        <input type="text" name="email" value="Escribir Email">
+                        <br>
+                        <label for="Mensaje">Mensaje</label>
+                        <textarea name="name"  cols="20" rows="10">Mensaje</textarea>
+                        <br>
+                        <input class="xx" type="submit" value="Enviar">
+
+                    </form>
+                </div>
+                
+            </section>
+
+            <!--Footer-->
+
+            <footer>
+                <div class="containerflecha">
+                    <a href="#titulo">
+                        <img class="flecha" src="footer/image/flecha.png" alt=""></a>
+                </div>
+                        <a href="https://www.facebook.com/alexmetalfernandez/" target="_blank"> 
+                            <img class="face" src="footer/image/imagenes-de-facebook-png.png"   alt=""></a>
+
+                        <a href="https://twitter.com/" target="_blank"> 
+                            <img class="twitter" src="footer/image/twt.png" alt=""></a>
+
+                        <a href="https://www.instagram.com/alexs7arg/" target="_blank"> 
+                            <img class="insta" src="footer/image/instagram-png-instagram-png-logo-1455.png" alt=""></a>
+                        
+                        <div class="container-boton">
+                            <a href="https://api.whatsapp.com/send?phone=5492616515447" target="_blank">
+                                <img class="boton" src="footer/image/wp.png" alt=""></a>
+                        </div>
+                <div class="containerdevelouper">
+                    <button id="develouper" onclick="cartel()"> Creado por: </button>
+                </div>
             
-        </section>
+            </footer>
+             <!--Script-->
 
-
-
-
-
-
-
-
-
-        <footer>
-       
-            <a href="#titulo">
-                <img class="flecha" src="footer/flecha.png" alt=""></a>
-
-            <a href="https://www.facebook.com/alexmetalfernandez/" target="_blank"> 
-                <img class="face" src="footer/imagenes-de-facebook-png.png"   alt=""></a>
-
-            <a href="https://twitter.com/" target="_blank"> 
-                <img class="twitter" src="footer/twt.png" alt=""></a>
-
-            <a href="https://www.instagram.com/alexs7arg/" target="_blank"> 
-                <img class="insta" src="footer/instagram-png-instagram-png-logo-1455.png" alt=""></a>
-            
-            <div class="container-boton">
-                <a href="https://api.whatsapp.com/send?phone=5492616515447" target="_blank">
-                    <img class="boton" src="footer/wp.png" alt=""></a>
-            </div>
-         
-    </footer>
+            <script src="./javascript/javascript.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+            <script src="https://kit.fontawesome.com/291c7585ac.js" crossorigin="anonymous"></script>
+    </body>
 </html>

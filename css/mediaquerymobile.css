@@ -36,7 +36,7 @@ nav{
 }
 .container-fluid{
     width: 100%;
-    height: 14%;
+   
     
 }
 .navbar-brand{
@@ -56,33 +56,47 @@ nav{
 }
 
 .navbar-nav{
+    width: 50%;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-   
-    
-
+    flex-direction: column;
 }
+.navbar-nav.ms-auto{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
 .navbar-nav a{
     font-size: 1.5em;
     color: white;
+    width: 20%;
+   
 }
 .navbar-nav a:hover{
     display: none;
 }
+
+.oscuro{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    
+}
+
 #modooscuro{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border-radius: 20%;
-    font-size: 1.4em;
-    width: 16%;
-    height: 10%;
-    border: rgb(255, 0, 0) 1px solid;
+        
+    background-color: transparent;
+    color: rgb(252, 252, 252);
+    border: red 3px solid;
+    font-size: 2em;
 }
 #modooscuro:hover{
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    border: rgb(4, 0, 255) 1px solid;
+    border: white 3px solid;
+    color: rgb(255, 0, 0);
+    
 }
 
 /*carousel*/
@@ -91,7 +105,7 @@ nav{
 }
 
 .carousel-inner{
-    margin-top: 18%;
+    margin-top: 0%;
     width: 100%;
 }
 
@@ -110,69 +124,7 @@ nav{
 
 
 
-/*header
-header{
-    
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 99%;
 
-}
-.argentina{
-    width: 50vw;
-    height: 25vh;
-}
-.historia{
-    width: 85vw;
-    height: 60vh;
-   
-}
-
-/*nav
-nav{
-    
-    box-sizing: border-box;
-    width: 99%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 25%;
-    flex-wrap: wrap;
-    flex-direction: column;
-    
-}
-.navcontainer{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: 0%;
-    padding: 0%;
-   
-}
-
-nav a{
-  
-  
-    box-sizing: border-box;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    border: 1px rgb(255, 255, 255) solid;
-    width: 100%;
-    font-size: 2em;
-    padding: 1%;
-    margin: 0%;
-}
-nav a:hover{
-    color: rgb(255, 0, 0);
-    background-color: rgb(0, 0, 0);
-    transform: scale(1);
-    box-sizing: border-box;
-    border-bottom: 4px yellow solid;
-    transition: 0.3s;
-  
-}
 /*titulo*/
 #titulo{
     display: flex;
@@ -482,8 +434,8 @@ footer{
     position: fixed;
     z-index: 999;
     border-radius: 50%;
-    bottom: 10vw;
-    right: 18vh;
+    bottom: 14%;
+    right: 4vh;
     padding: 15px;
     transition: ease 0.3s;
     animation: none
@@ -523,52 +475,25 @@ footer{
 }
     
 /*contacto*/
-.navcontainercontacto{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-    justify-content: center;
-    padding: 2%;
-}
-.pag2{
-    display: flex;
-    justify-content: center;
-    background-color: red;
-    border-right: none;
-    width: 100%;
-    color: white;
-    font-size: 2em;
-    border-radius: 10%;
-    height: 25%;
-    align-items: center;
-}
 
-form{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    
-    
-}
-.formulario{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-form .xx{
-    background-color: rgb(255, 255, 255);
-    color: white;
-    border-radius: 30%;
-    width: 25%;
-    font-size: 2.5em;
-}
-form .xx:hover{
-    transform: scale(1.1);
-    background-color: rgb(255, 255, 255);
-    color: black;
-    border-bottom: 4px green solid;
-}
+    .pag2{
+        width: 100%;
+        background-color: rgba(192, 197, 197, 0.516);
+    }
+
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+        
+    }
+    form .xx{
+        background-color: red;
+        color: white;
+        border-radius: 5%;
+    }
+    form .xx:hover{
+        background-color: black;
+    }
 }
