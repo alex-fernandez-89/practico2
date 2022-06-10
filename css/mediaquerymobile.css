@@ -228,7 +228,7 @@ section .image2{
     flex-wrap: wrap;
     margin-right: 0%;
     margin-left: 0%;
-    width: 98vw;
+    width: 95vw;
     height: 30vh;
     
 }
@@ -238,19 +238,19 @@ section .image2:hover{
 }
 .iframe2{
     margin-left: 0%;
-    width: 98vw;
+    width: 95vw;
     height: 30vh;
     
 }
 .audio{
     margin-top: 0%;
-    width: 98vw;
+    width: 95vw;
     height: 30vh;
    
 }
 .iframe1{
     margin-left: 0%;
-    width: 98vw;
+    width: 95vw;
     height: 30vh;
 }
 
