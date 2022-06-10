@@ -9,6 +9,7 @@ function cartel() {
 }
 /*modo oscuro*/
 function inclusivo() {
+    document.getElementById("nav").style.backgroundColor="#1a1a1a";
     document.body.style.backgroundColor="black";
     document.getElementById("origen").style.color="gray";
     document.getElementById("epi").style.color="white";
@@ -23,5 +24,21 @@ function inclusivo() {
     document.getElementById("formar").style.color="white";
     document.getElementById("infoa").style.color="grey";
     document.getElementById("parrafo").style.color="white";
-    
+                        /*cars*/
+    document.getElementById("aleman").style.backgroundColor="black";
+    document.getElementById("tiramisu").style.backgroundColor="black";
+    document.getElementById("lemon").style.backgroundColor="black";
+    document.getElementById("cheesecake").style.backgroundColor="black";
+
+    document.getElementById("turrontitulo").style.color="grey";
+    document.getElementById("turronparrafo").style.color="white";
+    document.getElementById("tiramisutitulo").style.color="grey";
+    document.getElementById("tiramisuparrafo").style.color="white";
+    document.getElementById("lemontitulo").style.color="grey";
+    document.getElementById("lemonparrafo").style.color="white";
+    document.getElementById("caketitulo").style.color="grey";
+    document.getElementById("cakeparrafo").style.color="white";
+
+
+
 }

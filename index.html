@@ -26,7 +26,7 @@
 <body>
 
     <!--NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav id="nav" class="navbar navbar-expand-lg ">
         <div class="container-fluid">
             <a href="#" class="navbar-brand">
                 <img src="./header/image/logosaboresconhistoria.png" class="logo" height="28" alt="CoolBrand">
@@ -41,16 +41,20 @@
                     <a href="https://cookpad.com/ar/recetas/15813169-salteado-de-acelga-y-verdura-%E9%A1%BF%E9%A5%AD-inspiracion-china"" class="nav-item nav-link">Receta 3</a>
                     <a href="https://cookpad.com/ar/recetas/15813137-paquetes-de-repollo-%E9%A1%BF%E9%A5%AD-inspiracion-china" class="nav-item nav-link">Receta 4</a>
                     <a href="contacto.html" class="nav-item nav-link">Contacto</a>
-                    <div class="oscuro">
-                        <button id="modooscuro" onclick="inclusivo()">Modo Oscuro</button>
-                    </div>
+                    
                 </div>
             </div>
         </div>
         
     </nav>
-            
-    <br><br>
+    <br>
+    <br>
+            <div class="oscuro">
+                <button id="modooscuro" onclick="inclusivo()">Modo Oscuro</button>
+            </div>
+    <br>
+    <br>
+
 
     <!--Carousel-->
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -219,41 +223,41 @@
     <div class="container cardcontain">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card aleman">
+                <div id="aleman" class="card aleman">
                     <img src="cards/image/turronaleman.jpg" class="card-img-top" alt="Sample Image">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Turrón Aleman</h5>
-                        <p class="card-text">El turrón es una receta típica de la pastelería tradicional que data de 1700. En un comienzo, estuvo hecho con miel, nueces tostadas (aunque también pueden ser almendras, pistachos, avellanas) y frutas secas.</p>
-                        <a href="https://ar.cienradios.com/turron-estilo-aleman-con-galletitas-como-hacer-la-receta-para-este-postre-delicioso/" class="btn btn-outline-dark">Ver Receta</a>
+                        <h5 id="turrontitulo" class="card-title">Turrón Aleman</h5>
+                        <p id="turronparrafo" class="card-text">El turrón es una receta típica de la pastelería tradicional que data de 1700. En un comienzo, estuvo hecho con miel, nueces tostadas (aunque también pueden ser almendras, pistachos, avellanas) y frutas secas.</p>
+                        <a href="https://ar.cienradios.com/turron-estilo-aleman-con-galletitas-como-hacer-la-receta-para-este-postre-delicioso/" class="btn btn-primary">Ver Receta</a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card tiramisu">
+                <div id="tiramisu" class="card tiramisu">
                     <img src="cards/image/tiramisu.jpg" class="card-img-top" alt="Sample Image">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Tiramisu</h5>
-                        <p class="card-text">El tiramisú es un pastel frío que se monta en capas. No existe una receta única de elaboración, sino variantes a partir de una serie de ingredientes base que pueden ser representados por distintos productos</p>
+                        <h5 id="tiramisutitulo" class="card-title">Tiramisu</h5>
+                        <p id="tiramisuparrafo" class="card-text">El tiramisú es un pastel frío que se monta en capas. No existe una receta única de elaboración, sino variantes a partir de una serie de ingredientes base que pueden ser representados por distintos productos</p>
                         <a href="https://www.cocinavital.mx/recetas/postres/tiramisu-clasico-pasos/2019/05/" class="btn btn-secondary">Ver Receta</a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card lemon">
+                <div id="lemon" class="card lemon">
                     <img src="cards/image/lemonpie.jpg" class="card-img-top" alt="Sample Image">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Lemon Pie</h5>
-                        <p class="card-text">La tarta de limón es una tarta formada por una base de masa quebrada u hojaldre que se rellena con crema de limón. Esta tarta a menudo se complementa con un merengue, lo que resulta en tarta de limón con merengue</p>
+                        <h5 id="lemontitulo" class="card-title">Lemon Pie</h5>
+                        <p id="lemonparrafo" class="card-text">La tarta de limón es una tarta formada por una base de masa quebrada u hojaldre que se rellena con crema de limón. Esta tarta a menudo se complementa con un merengue, lo que resulta en tarta de limón con merengue</p>
                         <a href="https://unareceta.com/lemon-pie-con-leche-condensada/" class="btn btn-danger">Ver Receta</a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card cheesecake">
+                <div id="cheesecake" class="card cheesecake">
                     <img src="cards/image/cheescakefrutosrojos.jpg" class="card-img-top" alt="Sample Image">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Cheesecacke Frutos Rojos</h5>
-                        <p class="card-text">Si te fascinan los frutos rojos perfectamente equilibrado entre dulce y ácido, este cheesecake de frutos rojos es ideal para ti, .</p><br><br><br><br><br>
+                        <h5 id="caketitulo" class="card-title">Cheesecacke Frutos Rojos</h5>
+                        <p id="cakeparrafo" class="card-text">Si te fascinan los frutos rojos perfectamente equilibrado entre dulce y ácido, este cheesecake de frutos rojos es ideal para ti, .</p><br><br><br>
                         <a href="https://recetascheesecake.com/cheesecake-de-frutos-rojos/" class="btn btn-success">Ver Receta</a>
                     </div>
                 </div>

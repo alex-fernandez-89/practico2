@@ -30,7 +30,8 @@ p{
 
 /*navbar*/
 
-nav{
+.navbar{
+    background-color: #383938;
     width: 100%;
 
 }
@@ -78,26 +79,7 @@ nav{
     display: none;
 }
 
-.oscuro{
-    display: flex;
-    justify-content: center;
-    
-    align-items: center;
-    
-}
 
-#modooscuro{
-        
-    background-color: transparent;
-    color: rgb(252, 252, 252);
-    border: red 3px solid;
-    font-size: 2em;
-}
-#modooscuro:hover{
-    border: white 3px solid;
-    color: rgb(255, 0, 0);
-    
-}
 
 /*carousel*/
 .slide{
@@ -122,8 +104,31 @@ nav{
 
 }
 
+        /*Modo Oscuro*/
 
+.oscuro{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    width: 50%;
+}
 
+#modooscuro{
+        
+    background-color: rgba(0, 0, 0, 0.716);
+    color: rgb(252, 252, 252);
+    border: rgb(61, 64, 61) 3px solid;
+    font-size: 2em;
+    border-radius: 10%;
+    position: fixed;
+    z-index: 999;
+}
+#modooscuro:hover{
+    border: white 3px solid;
+    color: rgb(255, 0, 0);
+    
+}
 
 /*titulo*/
 #titulo{
@@ -325,12 +330,14 @@ aside ol{
 }
 
 .card{
-    border: yellow 3px solid;
+    border: rgb(157, 112, 112) 3px solid;
+    
 }
     
         .aleman{
             width: 99%;
             height: 99%;
+            
         }
         .tiramisu{
             width: 99%;
